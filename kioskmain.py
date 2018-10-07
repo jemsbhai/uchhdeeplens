@@ -16,11 +16,7 @@ image = pygame.transform.scale(image, (750,400))
 screen.blit(image, (0 , 0))
 pygame.display.update()
 
-### Your Account SID from twilio.com/console
-##account_sid = "ACcdd8451104f384f1901a6888c1b0e074"
-### Your Auth Token from twilio.com/console
-##auth_token  = "2f874090954729c3166b210209986975"
-##client = Client(account_sid, auth_token)
+
 
 ser = serial.Serial('/dev/ttyACM0', 115200)
 
